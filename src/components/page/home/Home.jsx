@@ -8,7 +8,7 @@ const Home = () => {
     const [isLogin, setIsLogin] = useState(false)
   return (
     <div>
-        {/* <Promo/> */}
+        <Promo/>
         <Products/>
         <News/>
         {/* <button onClick={()=>setIsLogin(true)}>Login</button> */}
