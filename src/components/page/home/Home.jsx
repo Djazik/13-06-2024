@@ -11,8 +11,8 @@ const Home = () => {
         {/* <Promo/> */}
         <Products/>
         <News/>
-        <button onClick={()=>setIsLogin(true)}>Login</button>
-        {isLogin ?
+        {/* <button onClick={()=>setIsLogin(true)}>Login</button> */}
+        {/* {isLogin ?
        <Modal close={setIsLogin}>
         <div>
             <h2>login</h2>
@@ -23,7 +23,7 @@ const Home = () => {
        </Modal>
         :
         <></>
-    }
+    } */}
     </div>
   )
 }
